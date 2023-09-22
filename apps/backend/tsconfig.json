@@ -1,0 +1,16 @@
+{
+  "extends": "@acme/tsconfig/nestjs.json",
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "paths": {
+      "@/config/*": [
+        "./src/config/*"
+      ],
+      "@/modules/*": [
+        "./src/modules/*"
+      ],
+    }
+  }
+}
