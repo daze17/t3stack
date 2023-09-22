@@ -16,7 +16,7 @@ const config = {
     locales: ["en"],
     defaultLocale: "en",
   },
-  appRouter:true,
+  appRouter: true,
 };
 
 export default config;
